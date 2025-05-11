@@ -1,3 +1,15 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://zeroescape.net"
+languageCode = "en-us"
+title = "Zero Escape"
+theme = "ananke"
+
+[params]
+  author = "cb-clayton"
+  description = "ZeroEscape"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+
+# prevent broken links from breaking the build
+[build]
+  writeStats = true
